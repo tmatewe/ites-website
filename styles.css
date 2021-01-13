@@ -10,6 +10,10 @@ a #logo {
   color: wheat;
 }
 
+body {
+  background-color: #e8eae6;
+  padding: 20px;
+}
 #smallMessage {
   text-align: center;
   font-style: italic;
@@ -17,17 +21,15 @@ a #logo {
   font-size: medium;
 }
 #main {
-  background-color: silver;
   border-radius: 1%;
   background-image: url("https://images.pexels.com/photos/2331569/pexels-photo-2331569.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  opacity: 50%;
-  width: 1910px;
+  opacity: 100%;
+  padding: 5px;
 }
 #aboutOurProducts {
-  /* width: 1750px; */
   background-color: white;
   border-radius: 5%;
   position: relative;
@@ -36,16 +38,25 @@ a #logo {
 }
 
 h1,
-p {
+h4 p {
   text-align: center;
+  padding: 10px;
 }
 
 .clients {
   border-radius: 50%;
   width: 100px;
   height: 100px;
+  padding: 10px;
+  margin: 2px;
 }
 .tutors {
   width: 200px;
-  height: 200px;
+  height: 250px;
+  padding: 10px;
+  margin: 2px;
+}
+
+.row {
+  padding: 10px;
 }
